@@ -17,16 +17,10 @@ that mimic Magic the Gathering cards.
 
 # Compiling
 The included .java files are compiled with:
-        
-        `javac */*.java`
-
-from the /src directory
+`javac */*.java` from the /src directory
 
 Once the files are compiled, the server is run with:
-        
-        `java server/MagicServerDriver <udp|tcp> [port]`
-        
-from the /src directory
+`java server/MagicServerDriver <udp|tcp> [port]` from the /src directory
 
 Once the server is running, the client can then be run with:
 
@@ -44,7 +38,7 @@ from the /src directory
 
     client, common, and server
 
--cards.csv - .csv file used to make the CardSource used in the server package.
+- cards.csv - .csv file used to make the CardSource used in the server package.
 client package -
 
     AbstractMagicClient.java - abstract class that contains fields
