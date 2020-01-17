@@ -24,9 +24,11 @@ Once the files are compiled, the server is run with:
 
 Once the server is running, the client can then be run with:
 
-        `java client/MagicClientDriver <tcp|udp> <host> [port] -[flag]`
-        or: `java MagicClientDriver <tcp|udp> <host> -[flag]`
-        or: `java MagicClientDriver <tcp|udp> <host> [port]`
+`java client/MagicClientDriver <tcp|udp> <host> [port] -[flag]`
+
+or: `java MagicClientDriver <tcp|udp> <host> -[flag]`
+
+or: `java MagicClientDriver <tcp|udp> <host> [port]`
 
 from the /src directory 
 
