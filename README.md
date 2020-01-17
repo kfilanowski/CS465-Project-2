@@ -1,42 +1,44 @@
-Authors: Donald Queen and Kevin Filanowski
-Date: November 6, 2018
-Version: v1.0
+# Authors
+Donald Queen
 
-------------------------------------------
-            Description
-------------------------------------------
+Kevin Filanowski
+
+# Version: 
+v1.0
+
+Date: November 6, 2018
+
+# Description
 This project works with UDP and TCP implementations of a server and client
 relationship and sending queries to servers from the client, receiving the query 
 on the server side, sending objects from the server based on the query, and receiving
 the objects on the client side. The objects in this particular project are Card objects
 that mimic Magic the Gathering cards. 
-------------------------------------------
-            Compiling
-------------------------------------------
+
+# Compiling
 The included .java files are compiled with:
         
-        javac */*.java
+        `javac */*.java`
 
 from the /src directory
 
 Once the files are compiled, the server is run with:
         
-        java server/MagicServerDriver <udp|tcp> [port]
+        `java server/MagicServerDriver <udp|tcp> [port]`
         
 from the /src directory
 
 Once the server is running, the client can then be run with:
 
-        java client/MagicClientDriver <tcp|udp> <host> [port] -[flag] 
-        or: java MagicClientDriver <tcp|udp> <host> -[flag]
-        or: java MagicClientDriver <tcp|udp> <host> [port]
+        `java client/MagicClientDriver <tcp|udp> <host> [port] -[flag]`
+        or: `java MagicClientDriver <tcp|udp> <host> -[flag]`
+        or: `java MagicClientDriver <tcp|udp> <host> [port]`
 
 from the /src directory 
 
------------------------------------------
-        File Included
------------------------------------------
--bin directory that contains the binary files of the src directory
+# File Included
+
+- bin directory that contains the binary files of the src directory
 - src directory that contains three packages of java classes as well as a .csv file
   to read from. Those three packages are: 
 
